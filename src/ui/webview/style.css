@@ -1,0 +1,22 @@
+body {
+    font-family: var(--vscode-font-family);
+    padding: 10px;
+}
+
+.session-view {
+    margin-bottom: 20px;
+}
+
+.participant-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.participant {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--vscode-editor-background);
+}
